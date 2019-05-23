@@ -88,7 +88,7 @@
                                         "in": "header",
                                         "type": "string",
                                         "description": "Provide business process name.",
-                                        "x-ms-summary": "Business process name that is configured on the portal.",
+                                        "x-ms-summary": "SL360-BusinessProcess",
                                         "required": true
                                     },
                                     {
@@ -96,7 +96,7 @@
                                         "in": "header",
                                         "type": "string",
                                         "description": "Provide business transaction name.",
-                                        "x-ms-summary": "Business transaction name that is configured on the portal under the business process.",
+                                        "x-ms-summary": "SL360-BusinessTransaction",
                                         "required": true
                                     },
                                     {
@@ -244,14 +244,14 @@
                                         "in": "header",
                                         "type": "string",
                                         "description": "Provide business process name.",
-                                        "x-ms-summary": "Business process name that is configured on the portal.",
+                                        "x-ms-summary": "SL360-BusinessProcess",
                                         "required": true
                                     },
                                     {
                                         "name": "SL360-BusinessTransaction",
                                         "in": "header",
                                         "type": "string",
-                                        "x-ms-summary": "Business transaction name that is configured on the portal under the business process.",
+                                        "x-ms-summary": "SL360-BusinessTransaction",
                                         "description": "Provide business transaction name.",
                                         "required": true
                                     },
@@ -329,7 +329,7 @@
                                         "name": "SL360-BusinessProcess",
                                         "in": "header",
                                         "type": "string",
-                                        "x-ms-summary": "Business process name that is configured on the portal.",
+                                        "x-ms-summary": "SL360-BusinessProcess",
                                         "description": "Provide business process name.",
                                         "required": true
                                     }
@@ -386,7 +386,7 @@
                                         "name": "SL360-BusinessProcess",
                                         "in": "header",
                                         "type": "string",
-                                        "x-ms-summary": "Business process name that is configured on the portal.",
+                                        "x-ms-summary": "SL360-BusinessProcess",
                                         "description": "Provide business process name.",
                                         "required": true
                                     },
@@ -394,7 +394,7 @@
                                         "name": "SL360-BusinessTransaction",
                                         "in": "header",
                                         "type": "string",
-                                        "x-ms-summary": "Business transaction name that is configured on the portal under the business process.",
+                                        "x-ms-summary": "SL360-BusinessTransaction",
                                         "description": "Provide business transaction name.",
                                         "required": true
                                     },
