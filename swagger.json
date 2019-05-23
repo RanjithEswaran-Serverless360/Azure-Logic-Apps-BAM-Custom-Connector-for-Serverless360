@@ -1,7 +1,7 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "ServerLess360 Custom Start Activity Custom Connector",
+        "title": "ServerLess360 Start Activity Custom Connector",
         "description": "ServerLess360 Custom connector helps you track your business processes.",
         "version": "1.0.0"
     },
