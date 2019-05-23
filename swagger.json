@@ -7,7 +7,7 @@
     },
     "basePath": "/",
     "definitions": {},
-    "host": "sl360-bam.azurewebsites.net",
+    "host": "sl360-prod-BAM-functionapp.azurewebsites.net",
     "paths": {
         "/api/StartActivity": {
             "post": {
@@ -50,7 +50,7 @@
                         "in": "header",
                         "type": "string",
                         "description": "Provide business process name.",
-                        "x-ms-summary": "Business process name that is configured on the portal.",
+                        "x-ms-summary": "SL360-BusinessProcess",
                         "required": true
                     },
                     {
@@ -58,7 +58,7 @@
                         "in": "header",
                         "type": "string",
                         "description": "Provide business transaction name.",
-                        "x-ms-summary": "Business transaction name that is configured on the portal under the business process.",
+                        "x-ms-summary": "SL360-BusinessTransaction",
                         "required": true
                     },
                     {
@@ -206,14 +206,14 @@
                         "in": "header",
                         "type": "string",
                         "description": "Provide business process name.",
-                        "x-ms-summary": "Business process name that is configured on the portal.",
+                        "x-ms-summary": "SL360-BusinessProcess",
                         "required": true
                     },
                     {
                         "name": "SL360-BusinessTransaction",
                         "in": "header",
                         "type": "string",
-                        "x-ms-summary": "Business transaction name that is configured on the portal under the business process.",
+                        "x-ms-summary": "SL360-BusinessTransaction",
                         "description": "Provide business transaction name.",
                         "required": true
                     },
@@ -291,7 +291,7 @@
                         "name": "SL360-BusinessProcess",
                         "in": "header",
                         "type": "string",
-                        "x-ms-summary": "Business process name that is configured on the portal.",
+                        "x-ms-summary": "SL360-BusinessProcess",
                         "description": "Provide business process name.",
                         "required": true
                     }
@@ -348,7 +348,7 @@
                         "name": "SL360-BusinessProcess",
                         "in": "header",
                         "type": "string",
-                        "x-ms-summary": "Business process name that is configured on the portal.",
+                        "x-ms-summary": "SL360-BusinessProcess",
                         "description": "Provide business process name.",
                         "required": true
                     },
@@ -356,7 +356,7 @@
                         "name": "SL360-BusinessTransaction",
                         "in": "header",
                         "type": "string",
-                        "x-ms-summary": "Business transaction name that is configured on the portal under the business process.",
+                        "x-ms-summary": "SL360-BusinessTransaction",
                         "description": "Provide business transaction name.",
                         "required": true
                     },
@@ -389,4 +389,16 @@
                 ]
             }
         }
+    },
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "securityDefinitions": {
+        "apikeyQuery": {
+            "type": "apiKey",
+            "name": "code",
+            "in": "query"
+        }
     }
+}
