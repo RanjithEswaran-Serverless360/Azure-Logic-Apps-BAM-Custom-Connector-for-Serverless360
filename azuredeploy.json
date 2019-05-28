@@ -20,7 +20,7 @@
             "type": "Microsoft.Web/customApis",
             "apiVersion": "2016-06-01",
             "name": "[parameters('customConnectorName')]",
-            "location": "[resourceGroup().location]",
+            "location": "[parameters('location')]",
             "properties": {
                 "connectionParameters": {
                     "api_key": {

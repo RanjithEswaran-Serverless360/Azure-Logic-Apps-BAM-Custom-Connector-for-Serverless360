@@ -23,4 +23,6 @@ If you are familiar with Azure Logic App, you must've used the designer view to 
 
 Deploy my resources
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+<!-- [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/) -->
+
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Serverless360/Azure-Logic-Apps-BAM-Custom-Connector-for-Serverless360/master/azuredeploy.json)
